@@ -35,6 +35,85 @@
 
 
     <link rel="stylesheet" href="./assets/css/main.css">
+
+
+    <!-- / Custom page style for button . -->
+    <style type="text/css">
+        .govuk-button:link,
+        .govuk- button:visited,
+        .govuk-button:active,
+        .govuk-button:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .govuk-button--start {
+            padding-top: 9px;
+            padding-bottom: 6px;
+        }
+
+        .govuk-button--start {
+            font-size: 24px;
+            line-height: 1;
+        }
+
+        .govuk-button--start {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 1;
+            min-height: auto;
+            padding-top: 8px;
+            padding-right: 40px;
+            padding-bottom: 8px;
+            padding-left: 15px;
+            background-image: url(./assets/img/icon-pointer.png);
+            background-repeat: no-repeat;
+            background-position: 100% 50%;
+        }
+
+        .govuk-button {
+            font-family: "nta", Arial, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            display: inline-block;
+            position: relative;
+            width: 100%;
+            margin-top: 0;
+            margin-bottom: 22px;
+            padding: 7px 10px;
+            border: 2px solid transparent;
+            border-radius: 0;
+            color: #fff;
+            background-color: #E0162B;
+            -webkit-box-shadow: 0 2px 0 #003618;
+            vertical-align: top;
+            cursor: pointer;
+            -webkit-appearance: none;
+        }
+
+        .govuk-button::before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: -2px;
+            right: -2px;
+            bottom: -4px;
+            left: -2px;
+            background: transparent;
+        }
+@media (min-width: 40.0625em)
+.govuk-button--start {
+    font-size: 24px;
+    line-height: 1;
+}
+
+    </style>
+
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script>
         (window.jQuery && jQuery.noConflict()) || document.write('<script src="/wp/wp-includes/js/jquery/jquery.js"><\/script>')
@@ -136,8 +215,8 @@
                     <p>Private genetic testing services like 23andMe, FamilyTree, Ancestry, MyHeritage and public like Jetmatch, Dna Land promise only to help you learn about yourself through your DNA. The popularity and network effect of DNA tests raise privacy questions: Do these companies own your DNA data? Can the state or private companies use this data against you? Are these open databases a de facto National DNA database?
                     </p>
                     <p>&nbsp;</p>
-                     <h2 style="text-align: center;">DNA Privacy</h2>
-                    <p>Unlike big data surveillance oligopolies, our workshop will not keep your genetic information - so you can explore your own  DNA in privacy and with peace of mind. Please keep in mind that this testing is for educational and recreational use only and should not be used as diagnostic or medical information. 
+                    <h2 style="text-align: center;">DNA Privacy</h2>
+                    <p>Unlike big data surveillance oligopolies, our workshop will not keep your genetic information - so you can explore your own DNA in privacy and with peace of mind. Please keep in mind that this testing is for educational and recreational use only and should not be used as diagnostic or medical information.
                     </p>
                     <p>&nbsp;</p>
                     <h2 style="text-align: center;">the Workshop</h2>
@@ -149,10 +228,12 @@
                     <p>Our Workshop topics include: not only polymerase chain reaction (PCR), gel electrophoresis and DNA sequencing, but also bioinformatics, comparative genomics, DNA editing (using restriction enzymes and ligases), uploading DNA circuits (using bacterial transformation and plating techniques), synthetic biology (using modular analysis and design of DNA circuits), Do-It-Yourself (DIY) Bio, and more! No prior experience in biology or laboratory techniques are required: just bring your enthusiasm to learn!</p>
                     <p>&nbsp;</p>
                     <h2 style="text-align: center;"></h2>
-                    <p></p>
+                    <p><a href="https://www.eventbrite.com/e/celebrate-dna-day-biotech-workshop-tickets-60594636188" role="button" class="govuk-button govuk-button--start govuk-!-margin-top-2 govuk-!-margin-bottom-8">
+                            Sign up now
+                        </a></p>
                     <p>&nbsp;</p>
-                    
-                    
+
+
                     <div id='gform_confirmation_wrapper_2' class='gform_confirmation_wrapper download-application'>
                         <div id='gform_confirmation_message_2' class='gform_confirmation_message_2 gform_confirmation_message'> This event is also being hosted as part of National DNA Day, for more details see
                             <a href="https://www.genome.gov/dnaday/"><b>Genome.gov</b></a>
